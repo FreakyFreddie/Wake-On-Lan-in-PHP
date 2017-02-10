@@ -1,0 +1,3 @@
+macaddress name ipaddress
+01:80:12:45:48:59 huppeldepup 10.2.1.5
+01:80:12:45:48:57 huppeldepup 10.2.1.7
