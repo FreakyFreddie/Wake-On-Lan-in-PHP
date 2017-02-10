@@ -37,7 +37,7 @@
 			//if options does not return false, send the WOL broadcast with the packet
 			if ($options >=0) 
 			{    
-				$e = socket_sendto($sock, $packet, strlen($packet), 0, $broadcast, 7);
+				$send = socket_sendto($sock, $packet, strlen($packet), 0, $broadcast, 7);
 				socket_close($sock);
 			}    
 		}
